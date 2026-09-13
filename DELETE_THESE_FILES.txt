@@ -1,0 +1,23 @@
+هذه الملفات يجب حذفها يدوياً من مشروعكم (لا تخص RinStudio إطلاقاً — تسربت من GETY/WGOM
+أو من نظام الدخول الذي أُزيل)؛ زيب لا يستطيع "حذف" ملفات موجودة عندكم، لذا هذه قائمة فقط:
+
+app/src/main/java/com/dlof/rinlang/auth/PairingRepository.kt
+app/src/main/java/com/dlof/rinlang/auth/DevicePairingActivity.kt
+app/src/main/res/layout/activity_device_pairing.xml
+app/src/main/res/drawable/bg_pairing_qr_frame.xml
+app/src/main/res/layout/activity_account.xml
+app/src/main/res/values/strings_wgom.xml
+app/src/main/res/drawable/bg_button_outline.xml
+
+يمكنكم حذفها دفعة واحدة من جذر مشروع rinlang-main بتنفيذ:
+
+  rm -f app/src/main/java/com/dlof/rinlang/auth/PairingRepository.kt
+  rm -f app/src/main/java/com/dlof/rinlang/auth/DevicePairingActivity.kt
+  rm -f app/src/main/res/layout/activity_device_pairing.xml
+  rm -f app/src/main/res/drawable/bg_pairing_qr_frame.xml
+  rm -f app/src/main/res/layout/activity_account.xml
+  rm -f app/src/main/res/values/strings_wgom.xml
+  rm -f app/src/main/res/drawable/bg_button_outline.xml
+
+بعد الحذف، انسخوا كل ملفات هذا الأرشيف (مجلدَي app/ وfirebase/) فوق نفس المسارات في
+مشروعكم لإكمال التصحيح.
